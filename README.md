@@ -10,7 +10,7 @@ npm i -D source-map-explorer
 
 ```
 "scripts": {
-+    "analyze": "source-map-explorer 'build/static/js/*.js'",
++    "analyze": "source-map-explorer 'dist/*.js'",
 ```
 
 ```
