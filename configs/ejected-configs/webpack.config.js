@@ -192,7 +192,7 @@ module.exports = function(webpackEnv) {
       globalObject: 'this',
     },
     optimization: {
-      /*minimize: isEnvProduction,
+      minimize: isEnvProduction,
       minimizer: [
         // This is only used in production mode
         new TerserPlugin({
@@ -268,7 +268,6 @@ module.exports = function(webpackEnv) {
       runtimeChunk: {
         name: entrypoint => `runtime-${entrypoint.name}`,
       },
-      */
     },
     resolve: {
       // This allows you to set a fallback for where webpack should look for modules.

@@ -26,7 +26,7 @@ webpack --mode development
 
 ## Поставить Terser
 ```
-npm install terser-webpack-plugin –save-dev
+npm i -D terser-webpack-plugin
 ```
 
 ```

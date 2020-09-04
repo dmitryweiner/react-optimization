@@ -1,11 +1,11 @@
 {
-  "name": "minimal-react-webpack-babel-setup",
+  "name": "react-optimization",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./configs/webpack.dev.js --mode development",
-    "build": "webpack --config ./configs/webpack.prod.js --mode development",
+    "build": "webpack --config ./configs/webpack.prod.js --mode production",
     "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [],
