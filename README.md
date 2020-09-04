@@ -21,7 +21,7 @@ npm run analyze
 ## Включить режим production
 ```
 webpack -p
-webpack --mode development
+webpack --mode production
 ```
 
 ## Поставить Terser
