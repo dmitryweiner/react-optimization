@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config webpackConfig/webpack.dev.js",
-    "build": "cross-env NODE_ENV=production webpack --config webpackConfig/webpack.prod.js"
+    "build": "cross-env NODE_ENV=production webpack --config webpackConfig/webpack.prod.js",
+    "start-parcel": "parcel src/index.html --open",
+    "build-parcel": "parcel build src/index.html"
   },
   "keywords": [
     "webpack",
@@ -24,6 +26,7 @@
     "@material-ui/lab": "^4.0.0-alpha.56",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "cross-env": "^7.0.2",
@@ -35,6 +38,7 @@
     "html-webpack-plugin": "^4.0.4",
     "mini-css-extract-plugin": "^0.9.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "parcel-bundler": "^1.12.4",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
